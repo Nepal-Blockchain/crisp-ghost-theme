@@ -1,3 +1,30 @@
+.social {
+  font-size: 1px;
+}
+
+.social iframe {
+  vertical-align: middle;
+}
+
+.social span {
+  display: inline-block;
+}
+
+.social .g-plus {
+  width: 67px;
+}
+
+.social .g-plusone {
+  width: 50px;
+}
+
+.social .facebook {
+  width: 127px;
+}
+
+.social .twitter {
+  width: 63px;
+}
 
 .list-unstyled {
 	padding-left: 0;
