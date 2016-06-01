@@ -1,8 +1,8 @@
 {
-    "name"        : "Crisp",
-    "version"     : "0.5.0",
+    "name"        : "NepalBitcoin",
+    "version"     : "0.0.1",
     "description" : "A minimalist, responsive, and open-source theme for Ghost",
-    "author"      : "Kathy Qian",
+    "author"      : "NepalBitcoin & Kathy Qian",
     "homepage"    : "https://github.com/kathyqian/crisp-ghost-theme",
-		"license"     : "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+	"license"     : "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
 }
