@@ -2,6 +2,9 @@
   font-size: 1px;
   vertical-align: middle;
 }
+.taglist{
+	vertical-align: text-bottom;
+}
 
 .social iframe {
   vertical-align: middle;
