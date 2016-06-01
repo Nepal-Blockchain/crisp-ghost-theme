@@ -7,9 +7,9 @@
 		{{/if}} 
 		<a href="{{url}}">{{title}}</a>
 		<span class="separator"> &middot; </span>
-		<span style="font-size:0.3em">{{date published_at format='MMMM D, YYYY'}}</span>
+		<span style="font-size:0.5em">{{date published_at format='MMMM D'}}</span>
 		<span class="taglist">{{tags separator=" " prefix=" &middot; " limit="3"}}</span>
-		<div class="social">
+		<span class="social">
 			<span class="facebook">
 				<iframe src="https://www.facebook.com/plugins/like.php?href={{@blog.url}}{{url}}&amp;width=133&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=20&amp;appId=1531428240402426" scrolling="no" frameborder="0" style="height: 20px; width: 130px" allowTransparency="true"></iframe>
 			</span>
@@ -18,7 +18,7 @@
 			</span>
 			<span class="g-plus" data-action="share" data-annotation="none" data-href="{{@blog.url}}{{url}}"></span>
 	  		<span class="g-plusone" data-size="medium" data-href="{{@blog.url}}{{url}}"></span>
-		</div>
+		</span>
 	</h3> 
 </section>
 {{/foreach}}
