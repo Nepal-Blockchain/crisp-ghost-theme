@@ -1,16 +1,16 @@
 {{#foreach posts}}
 <section id="{{id}}" class="{{post_class}}">
 	<h3 class="post-title">
-		<a href="{{url}}">{{title}}</a>
-		<span class="separator"> &middot; </span>
-		<span style="font-size:0.3em">{{date published_at format='MMMM D, YYYY'}}</span>
-		<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>
 		{{#if featured}}
 			<span class="separator"> &middot; </span>
 			<i class="fa fa-star-o feature-star"></i>
 		{{/if}} 
+		<a href="{{url}}">{{title}}</a>
+		<span class="separator"> &middot; </span>
+		<span style="font-size:0.3em">{{date published_at format='MMMM D, YYYY'}}</span>
+		<span class="taglist">{{tags separator=" " prefix=" &middot; " limit="3"}}</span>
 		<span class="fb-like" data-href="{{url}}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></span>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{url}}" data-text="{{title}}" data-via="NepalBitcoin" data-hashtags="{{tags autolink="false" limit="2"}}, Nepal">Tweet</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{@blog.url}}{{url}}" data-text="{{title}}" data-via="NepalBitcoin" data-hashtags="/n {{tags autolink="false" limit="3"}}, Nepal">Tweet</a>
 	</h3> 
 </section>
 {{/foreach}}
