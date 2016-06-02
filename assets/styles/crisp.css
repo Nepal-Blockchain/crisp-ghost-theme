@@ -67,7 +67,7 @@ h3 {
 	font-size:1.4em;
 	line-height: 1.3em;
 	margin-top: 0.8em;
-	margin-bottom: 0.8em;	
+	margin-bottom: 0em;	
 }
 h4 {
 	font-size:1.3em;
@@ -179,8 +179,6 @@ h1.post-title {
 }
 h3.post-title {
 	margin-top:0.4em;
-	padding-bottom:0.9em;
-	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
 	color: #444;
 }
