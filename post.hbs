@@ -1,12 +1,11 @@
 {{!< default}}
 {{#post}}
 <article id="{{id}}" class="{{post_class}}">
+	<h1 class="post-title">{{title}}</h1>
 	<div class="post-stamp">
 		{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}
 		{{date published_at format='MMMM D, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>
-	</div>
-	<h1 class="post-title">{{title}}</h1>
-	<div class="social">
+		<span class="social">
 			<span class="facebook">
 				<iframe src="https://www.facebook.com/plugins/like.php?href={{@blog.url}}{{url}}&amp;width=133&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=20&amp;appId=1531428240402426" scrolling="no" frameborder="0" style="height: 20px; width: 130px" allowTransparency="true"></iframe>
 			</span>
@@ -15,7 +14,8 @@
 			</span>
 			<span class="g-plus" data-action="share" data-annotation="none" data-href="{{@blog.url}}{{url}}"></span>
 	  		<span class="g-plusone" data-size="medium" data-href="{{@blog.url}}{{url}}"></span>
-		</div>
+		</span>
+	</div>
 	{{content}}
 	{{> share}} 
   {{> comments}}
