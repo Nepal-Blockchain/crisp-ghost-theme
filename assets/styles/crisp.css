@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Madan';
+	src: url('../fonts/madan.eot');
+	src: local('☺'), url('../fonts/madan.woff') format('woff'), url('../fonts/madan.ttf') format('truetype'), url('../fonts/madan.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,10 +14,11 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Madan", sans-serif;
 	font-weight: 300;
     background: #fff;
 	color: #444;
+	word-spacing: -5px;
 }
 html {
 	height: 100%;
@@ -48,7 +57,7 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
+	font-family: "Madan", serif;
 	font-weight: 400 !important;
 }
 h1 {
@@ -196,7 +205,7 @@ h3.post-title {
 	padding:0.3em 0.6em 0.3em 0.6em;
 	vertical-align:20%;  
 	font-size:0.5em;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Madan", sans-serif;
 	font-weight: 700 !important;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
